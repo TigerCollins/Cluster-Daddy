@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cluster Daddy.CSharp", "Cluster Daddy.CSharp.csproj", "{1223FB69-41D6-7E9D-8903-9320E151D743}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cluster Daddy.CSharp.Editor", "Cluster Daddy.CSharp.Editor.csproj", "{208ADA4A-9FF3-A3AB-42E5-6389CD25E9CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1223FB69-41D6-7E9D-8903-9320E151D743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1223FB69-41D6-7E9D-8903-9320E151D743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1223FB69-41D6-7E9D-8903-9320E151D743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1223FB69-41D6-7E9D-8903-9320E151D743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{208ADA4A-9FF3-A3AB-42E5-6389CD25E9CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{208ADA4A-9FF3-A3AB-42E5-6389CD25E9CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{208ADA4A-9FF3-A3AB-42E5-6389CD25E9CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{208ADA4A-9FF3-A3AB-42E5-6389CD25E9CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
