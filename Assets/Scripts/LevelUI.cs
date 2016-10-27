@@ -5,6 +5,9 @@ using System.Collections;
 public class LevelUI : MonoBehaviour {
     //Timer
     public Text Timer;
+    public Text PauseTimer;
+    public Text WinTimer;
+    public Text LoseTimer;
     public float TimerValue= 0f;
 
 	//Use this for initialization.
@@ -30,6 +33,9 @@ public class LevelUI : MonoBehaviour {
     {
         TimerValue += Time.deltaTime;
         Timer.text = TimerValue.ToString("f2");
+        PauseTimer.text = TimerValue.ToString("f2");
+        WinTimer.text = TimerValue.ToString("f2");
+        LoseTimer.text = TimerValue.ToString("f2");
     }
     
 }

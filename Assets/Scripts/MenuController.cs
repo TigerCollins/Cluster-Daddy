@@ -55,7 +55,7 @@ public class MenuController : MonoBehaviour {
     //Opens Level 2.
     public void L2()
     {
-        Debug.Log("Level 2.");
+        Application.LoadLevel("Level2");
     }
 
     //Opens Level 3.
