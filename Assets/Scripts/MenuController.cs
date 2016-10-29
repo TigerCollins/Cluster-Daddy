@@ -3,6 +3,10 @@ using UnityEngine.UI;
 using System.Collections;
 
 public class MenuController : MonoBehaviour {
+    
+    //Menus
+    public GameObject pauseMenu;
+    public GameObject winMenu;
 
     void Start()
     {
@@ -40,6 +44,12 @@ public class MenuController : MonoBehaviour {
         Debug.Log("Application Quit. Only works in packaged version.");
     }
 
+    //Opens How to Play.
+    public void HowToPlay()
+    {
+        Application.LoadLevel("HowToPlay");
+    }
+
     //Opens Credits.
     public void Credits()
     {
@@ -57,10 +67,21 @@ public class MenuController : MonoBehaviour {
     {
         Application.LoadLevel("Level2");
     }
-
+    
     //Opens Level 3.
     public void L3()
     {
-        Debug.Log("Level 3.");
+        Application.LoadLevel("Level3");
     }
+
+    //Resumes Game.
+    public void Resume()
+    {
+        Time.timeScale = 1f;
+        Cursor.visible = false;
+        pauseMenu.SetActive(false);
+        Screen.lockCursor = true; ;
+    }
+
+
 }

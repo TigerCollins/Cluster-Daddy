@@ -5,6 +5,14 @@ TagManager:
   serializedVersion: 2
   tags:
   - Death
+  - Belt0
+  - Belt90
+  - Belt180
+  - Belt-90
+  - HillBelt90
+  - HillBelt-90
+  - Win
+  - Bonus
   layers:
   - Default
   - TransparentFX
@@ -14,8 +22,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - BeltSpawn
+  - Crate
   - 
   - 
   - 

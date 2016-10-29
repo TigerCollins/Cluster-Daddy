@@ -142,8 +142,6 @@
     <Compile Include="Assets\Unity Assets\Editor\Water\Water4\WaterEditorUtility.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Unity Assets\Day-Night Skyboxes\Textures\Readme for Assigning.txt" />
-    <None Include="Assets\Unity Assets\Day-Night Skyboxes\readme.txt" />
     <None Include="Assets\Unity Assets\Fantasy Skybox FREE\Fog and Ambient reference.txt" />
     <None Include="Assets\Unity Assets\Fantasy Skybox FREE\Readme.txt" />
     <None Include="Assets\Unity Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
@@ -247,8 +245,6 @@
     <None Include="Assets\Unity Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
     <None Include="Assets\Unity Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
     <None Include="Assets\Unity Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
-    <None Include="Assets\Unity Assets\UnityChan\Stage\Shader\AlphaMask.shader" />
-    <None Include="Assets\Unity Assets\UnityChan\license.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

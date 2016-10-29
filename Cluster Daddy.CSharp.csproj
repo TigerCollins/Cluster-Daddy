@@ -75,8 +75,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\LevelUI.cs" />
+    <Compile Include="Assets\Scripts\Bonus.cs" />
+    <Compile Include="Assets\Scripts\ConveyerBelt.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\MenuController.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\UniversalScriptController.cs" />
     <Compile Include="Assets\Unity Assets\Standard Assets\Cameras\Scripts\AbstractTargetFollower.cs" />
     <Compile Include="Assets\Unity Assets\Standard Assets\Cameras\Scripts\AutoCam.cs" />
     <Compile Include="Assets\Unity Assets\Standard Assets\Cameras\Scripts\FreeLookCam.cs" />
@@ -188,8 +192,6 @@
     <Compile Include="Assets\Unity Assets\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Unity Assets\Day-Night Skyboxes\Textures\Readme for Assigning.txt" />
-    <None Include="Assets\Unity Assets\Day-Night Skyboxes\readme.txt" />
     <None Include="Assets\Unity Assets\Fantasy Skybox FREE\Fog and Ambient reference.txt" />
     <None Include="Assets\Unity Assets\Fantasy Skybox FREE\Readme.txt" />
     <None Include="Assets\Unity Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
@@ -293,8 +295,6 @@
     <None Include="Assets\Unity Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
     <None Include="Assets\Unity Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
     <None Include="Assets\Unity Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
-    <None Include="Assets\Unity Assets\UnityChan\Stage\Shader\AlphaMask.shader" />
-    <None Include="Assets\Unity Assets\UnityChan\license.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
